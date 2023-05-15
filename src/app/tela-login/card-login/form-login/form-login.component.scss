@@ -1,0 +1,77 @@
+.form-login{
+  height: 55%;
+  form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    padding-right: 30px;
+    .inputs{
+      display: flex;
+      flex-direction: column;
+      
+      input{
+        background: rgba(34, 40, 48, 0.7);
+        border-radius: 10px;
+        height: 45px;
+        &::placeholder{
+          padding: 10px;
+          color: #FFFFFF;
+          opacity: 0.8;
+        }
+        &:hover{
+          border: #65DDF9 solid 2px;
+          &::placeholder{
+            color: #65DDF9;
+
+          }
+        }
+      }
+
+      p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 120%;
+        /* or 14px */
+
+        text-decoration-line: underline;
+
+        /* Dark & Light/Light */
+
+        color: #FFFFFF;
+        margin-top: 10px;
+      }
+
+      .mt{
+        margin-top: 17px;
+      }
+    }
+    button{
+      background: linear-gradient(268.16deg, #65DDF9 -11.82%, #03A2EB 65.12%, #0281BB 142.06%);
+      box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+      border-radius: 12px;
+      height: 49px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 120%;
+      /* identical to box height, or 24px */
+      color: #FFFFFF;
+      &:hover{
+        background: linear-gradient(268.16deg, #33A4D8 -11.82%, #6CC4EC 27.13%, #3DC2FF 65.12%, #9EE4FF 106.47%, #C7F4FF 142.06%);
+
+      }
+
+    }
+  }
+}
+
+
+
+
+
+
