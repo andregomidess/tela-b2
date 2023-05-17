@@ -10,13 +10,18 @@
     .inputs{
       display: flex;
       flex-direction: column;
-      
+
       input{
         background: rgba(34, 40, 48, 0.7);
         border-radius: 10px;
         height: 45px;
+        padding: 0 10px;
+        color: #FFFFFF;
+        &:focus{
+          border: #65DDF9 solid 2px;
+          outline: none;
+        }
         &::placeholder{
-          padding: 10px;
           color: #FFFFFF;
           opacity: 0.8;
         }
