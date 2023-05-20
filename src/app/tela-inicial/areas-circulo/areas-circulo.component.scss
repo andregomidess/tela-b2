@@ -90,10 +90,30 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 120%;
-  text-justify:di;
+  justify-content: center;
   /* or 19px */
   /* Dark & Light/Light */
   color: #FFFFFF;
 
 }
 
+
+
+@media screen and (max-width: 1800px){
+
+  .container-circle{
+    zoom: 0.83;
+  }
+  .texto-circulo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    justify-content: center;
+    /* or 19px */
+    /* Dark & Light/Light */
+    color: #FFFFFF;
+
+  }
+}
