@@ -6,14 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./tela-inicial.component.scss']
 })
 export class TelaInicialComponent {
-  cargo: string = 'gestor financeiro';
+  cargo: string = 'diretor';
 
   setCargoBackground(){
     switch (this.cargo) {
       case 'gestor':
-        return '../../assets/images/Background.png';
+        return '../../assets/images/Background-gestor.png';
       case 'diretor':
-        return '../../assets/images/Background.png';
+        return '../../assets/images/Background-diretor.png';
       case 'rh':
         return '../../assets/images/Background.png';
       case 'gestor financeiro':

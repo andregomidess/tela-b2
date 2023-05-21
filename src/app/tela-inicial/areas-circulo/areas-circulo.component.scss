@@ -25,8 +25,10 @@
     }
     .circles{
       position: absolute;
-      background: #222830;
-      border: 3px solid rgba(101, 221, 249, 1);
+      //border: 3px solid rgba(101, 221, 249, 1);
+      background: linear-gradient(#222830, #222830) padding-box,
+        linear-gradient(45deg, #65DDF9, #03A2EB, #0281BB) border-box;
+      border: 3px solid transparent;
       height: 10em;
       width: 10em;
       transition: transform 0.3s ease-in-out;
@@ -78,7 +80,22 @@
     .position-gf{
       position: absolute;
       margin-bottom: 35%;
-      margin-left: 50%;
+      margin-left: 51%;
+    }
+    .position-gestor{
+      position: absolute;
+      margin-top: 22%;
+      margin-right: 46%;
+    }
+    .position-diretor{
+      position: absolute;
+      margin-top: 8%;
+      margin-left: 45%;
+    }
+    .position-rh{
+      position: absolute;
+      margin-bottom: 44%;
+      margin-right: 58%;
     }
     .alinhar-texto{
       display: flex;
@@ -107,7 +124,7 @@
 @media screen and (max-width: 1800px){
 
   .container-circle{
-    zoom: 0.83;
+    zoom: 0.8;
   }
   .texto-circulo{
     font-size: 18px;
