@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-areas-circulo',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./areas-circulo.component.scss']
 })
 export class AreasCirculoComponent {
+
+  @Input() cargo!: string;
 
 }

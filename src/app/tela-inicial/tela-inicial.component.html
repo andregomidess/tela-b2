@@ -1,5 +1,5 @@
 
-<section class="tela-inicial">
+<section class="tela-inicial" [ngStyle]="{'background-image': 'url(' + setCargoBackground() + ')'}">
   <nav class="nav-bar">
     <div class="nome">
       <h1>Bem vindo, Guilherme Schumann!</h1>
@@ -31,6 +31,6 @@
   </nav>
   <img src="../../assets/images/Logo-Inteiro-Trans-Branco 1.png" alt="" class="logob2">
   <div class="circles">
-    <app-areas-circulo></app-areas-circulo>
+    <app-areas-circulo [cargo]="cargo"></app-areas-circulo>
   </div>
 </section>

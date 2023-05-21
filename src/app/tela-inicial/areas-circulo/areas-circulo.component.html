@@ -1,6 +1,9 @@
 <div class="container-circle">
    <div class="area-circulo">
-      <div class="rounded-circle circle"></div>
+      <div class="rounded-circle circle-perfil"></div>
+      <ng-container *ngIf="cargo === 'gestor financeiro'">
+        <app-circulo-gestao-financeira class="position-gf"></app-circulo-gestao-financeira>
+      </ng-container>
       <div class="rounded-circle circle-area-1 circles alinhar-texto">
         <p class="texto-circulo">Banco de horas</p>
       </div>

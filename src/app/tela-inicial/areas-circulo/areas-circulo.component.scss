@@ -10,7 +10,7 @@
     justify-content: center;
     height: 100%;
     width: 80%;
-    .circle{
+    .circle-perfil{
       height: 15em;
       width: 15em;
       margin-bottom: 10%;
@@ -75,6 +75,11 @@
       margin-bottom: 12%;
       margin-right: 40%;
     }
+    .position-gf{
+      position: absolute;
+      margin-bottom: 35%;
+      margin-left: 50%;
+    }
     .alinhar-texto{
       display: flex;
       flex-direction: column;
@@ -105,15 +110,7 @@
     zoom: 0.83;
   }
   .texto-circulo{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
     font-size: 18px;
-    line-height: 120%;
-    justify-content: center;
-    /* or 19px */
-    /* Dark & Light/Light */
-    color: #FFFFFF;
 
   }
 }
